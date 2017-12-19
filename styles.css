@@ -1,0 +1,379 @@
+*,
+*:after,
+*:before {
+box-sizing: border-box;
+margin: 0;
+}
+
+article {
+  height: 33.33%;
+  width: 33.33%;
+  text-align: center;
+}
+
+p {
+  color: #ffffff;
+  margin-top: 3%;
+}
+
+h1{
+  margin-top: 13%;
+  margin-left: 10%;
+  color: #ffffff;
+}
+
+button {
+  background: none;
+  color: #ffffff;
+  padding: 2% 4%;
+  font-size: 15px;
+}
+
+.guide {
+  margin-left: 10%;
+  margin-bottom: 5%;
+}
+
+.nissan{
+  padding: 2% 0%;
+  margin-right: 2%;
+  margin-left: 10%; 
+}
+
+.images {
+ margin-top: 25%;
+}
+
+.parent-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.left-side {
+  height: 100vh;
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.right-side {
+  height: 100vh;
+  width: 40%;
+  background-color: black;
+}
+
+.first {
+  background-color: #5a789c;
+  width: 66.66%;
+  text-align: left;
+}
+
+.contact-image,
+.nissan-image {
+  width: 10%;
+}
+
+.second {
+  background-color: #6d8cae;
+}
+
+.third {
+  background-color: #6284a3;
+}
+
+.fourth {
+  background-color: #6d8cae;
+}
+
+.fifth {
+  background-color: #59789c;
+}
+
+.sixth {
+  background-color: #7a9ab2;
+}
+
+.seventh {
+  background-color: #6183a3;
+}
+
+.eight {
+  background-color: #7999b2;
+}
+
+.main-image {
+  height: 100vh;
+  width: 100%;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  width: 4%;
+  right: 35%;
+}
+
+.right-arrow {
+  position: absolute;
+  right: 1%;
+  top: 50%;
+  width: 4%;
+}
+
+.circle-one {
+  position: absolute;
+  right: 5%;
+  top: 2%;
+}
+
+.circle-two {
+  position: absolute;
+  right: 3%;
+  top: 2%;
+}
+
+.circle-three {
+  position: absolute;
+  right: 1%;
+  top: 2%;
+}
+
+@media (max-width: 1024px) {
+
+  article {
+    height: 33.33%;
+    width: 33.33%;
+    text-align: center;
+  }
+
+  p {
+    color: #ffffff;
+    margin-top: 3%;
+  }
+
+  h1{
+    margin-top: 9%;
+    margin-left: 10%;
+    color: #ffffff;
+  }
+
+  button {
+    background: none;
+    color: #ffffff;
+    padding: 2% 4%;
+    font-size: 15px;
+  }
+
+  .guide {
+    margin-left: 10%;
+    margin-bottom: 5%;
+  }
+
+  .nissan{
+    padding: 2% 0%;
+    margin-right: 2%;
+    margin-left: 10%; 
+  }
+
+  .right-arrow {
+    top: 145%;
+    width: 7%;
+  }
+
+  .left-arrow {
+    top:145%;
+    left: 1%;
+    width: 7%;
+  }
+
+  .images {
+   margin-top: 25%;
+  }
+
+  .parent-container {
+    
+  }
+
+  .left-side {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .right-side {
+    width: 100%;
+    background-color: black;
+  }
+
+  .first {
+    background-color: #5a789c;
+    width: 66.66%;
+    text-align: left;
+  }
+
+  .contact-image,
+  .nissan-image {
+    width: 10%;
+  }
+
+  .main-image {
+    height: 100%;
+    width: 100%;
+  }
+  .circle-one {
+    top: 102%;
+  }
+
+  .circle-two {
+    top: 102%;
+  }
+
+  .circle-three {
+    top: 102%;
+  }
+
+@media (max-width: 800px) {
+
+  h1{
+    margin-top: 12%;
+    margin-left: 10%;
+    color: #ffffff;
+  }
+
+  .circle-one {
+    top: 102%;
+    right: 8%;
+  }
+
+  .circle-two {
+    top: 102%;
+    right: 5%;
+  }
+
+  .circle-three {
+    top: 102%;
+    right: 2%;
+  }
+
+}
+
+@media (max-width: 560px) {
+
+  .circle-one {
+    top: 102%;
+    right: 10%;
+  }
+
+  .circle-two {
+    top: 102%;
+    right: 6%;
+  }
+
+  .circle-three {
+    top: 102%;
+    right: 2%;
+  }
+
+
+}  
+
+@media (max-width: 400px) {
+
+  article {
+    height: 14vh;
+    width: 100%;
+    text-align: center
+  }
+
+  p {
+    color: #ffffff;
+    margin-top: -1%;
+  }
+
+  h1{
+    margin-left: 10%;
+    color: #ffffff;
+    padding-top: 2%;
+    margin-bottom: 2%;
+    margin-top: 0%;
+  }
+
+  .guide {
+    margin-left: 10%;
+    margin-bottom: 3%;
+  }
+
+  .nissan{
+    padding: 2% 0%;
+    margin-right: 2%;
+    margin-left: 10%; 
+  }
+
+  .images {
+    width: 15%;
+    padding-top: 3%;
+    margin-top: 1%;
+  }
+
+
+  .left-side {
+    height: 114vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: no-wrap;
+  }
+
+  .right-side {
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+  }
+
+  .first {
+    background-color: #5a789c;
+    width: 100%;
+    text-align: left;
+    height: 16vh;
+}
+
+  .main-image {
+    width:100%;
+    height:100%;
+  }
+
+  .circle-one {
+    top: 115%;
+    right: 16%;
+  }
+
+  .circle-two {
+    top: 115%;
+    right: 9%;
+  }
+
+  .circle-three {
+    top: 115%;
+    right: 2%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
